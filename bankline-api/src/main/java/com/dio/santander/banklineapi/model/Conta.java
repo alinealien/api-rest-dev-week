@@ -1,8 +1,9 @@
 package com.dio.santander.banklineapi.model;
 
+import javax.persistence.Entity;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
-import javax.persistence.Embedded;
+
 
 @Embeddable
 public class Conta {
