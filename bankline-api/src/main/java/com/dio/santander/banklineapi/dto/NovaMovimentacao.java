@@ -1,4 +1,6 @@
 package com.dio.santander.banklineapi.dto;
+//DTO - camada de interação com o usuario
+
 
 import com.dio.santander.banklineapi.model.MovimentacaoTipo;
 

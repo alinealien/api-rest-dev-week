@@ -27,8 +27,9 @@ public class CorrentistaController {
     public List<Correntista> findAll(){
         return repository.findAll();
     }
+    //Aqui salva no banco de dados. Os correntistas.
 
-    @PostMapping
+    @PostMapping //Ele vai receber um correntista
     public void save(@RequestBody NovoCorrentista correntista) {
         service.save(correntista);
     }
