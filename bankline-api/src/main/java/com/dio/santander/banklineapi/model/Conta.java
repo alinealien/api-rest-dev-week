@@ -4,7 +4,6 @@ import javax.persistence.Entity;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
-
 @Embeddable
 public class Conta {
 
