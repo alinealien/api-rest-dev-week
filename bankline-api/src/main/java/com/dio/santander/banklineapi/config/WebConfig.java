@@ -1,5 +1,7 @@
 package com.dio.santander.banklineapi.config;
 
+// WebConfig.java
+
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;

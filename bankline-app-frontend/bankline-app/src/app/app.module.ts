@@ -26,7 +26,8 @@ registerLocaleData(localePt);
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule,FormsModule,
+    NgbModule,
+    FormsModule,
     HttpClientModule
   ],
   providers: [{provide: LOCALE_ID, useValue: 'pt-BR'}],
